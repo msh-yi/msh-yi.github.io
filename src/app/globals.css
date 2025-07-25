@@ -11,15 +11,23 @@
   --foreground: #303030;
 }
 
+/* Unified font family - applies to everything */
+html {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+}
+
+* {
+  font-family: inherit;
+}
+
 /* Ensure consistent box-sizing */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
-  background: var(--background); /* Tailwind will override this if set */
+  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif; /* A fallback font */
 }
 
 /* Optionally, set default styles when using dark theme */
@@ -28,4 +36,84 @@ body {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+/* Scientific typography */
+sub, sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup { 
+  top: -0.5em; 
+}
+
+sub { 
+  bottom: -0.25em; 
+}
+
+/* ACS Citation styling */
+.citation-text {
+  line-height: 1.4;
+}
+
+.citation-text em {
+  font-style: italic;
+}
+
+.citation-text strong {
+  font-weight: 600;
+}
+
+.chemistry-post {
+  /* Chemical formulas and equations */
+  .chemical-formula {
+    @apply font-mono bg-slate-100 px-2 py-1 rounded text-sm;
+  }
+  
+  /* Highlight marks for important content */
+  mark {
+    @apply bg-amber-200 text-amber-900 px-2 py-1 rounded;
+  }
+  
+  /* Table styling specifically for data tables */
+  .data-table {
+    @apply w-full border-collapse border border-slate-300 text-sm;
+  }
+  
+  .data-table th {
+    @apply bg-slate-100 border border-slate-300 px-4 py-3 text-left font-semibold text-slate-900;
+  }
+  
+  .data-table td {
+    @apply border border-slate-300 px-4 py-3 text-slate-700;
+  }
+  
+  /* Interactive elements styling */
+  iframe {
+    @apply w-full rounded-lg border border-slate-200 shadow-md;
+  }
+  
+  /* Image captions */
+  .figure-caption {
+    @apply text-sm text-slate-600 text-center mt-2 italic;
+  }
+}
+
+/* Responsive iframe containers */
+.responsive-iframe {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.responsive-iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

@@ -18,9 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="flex flex-col min-h-screen">
         {/* Only show header and footer on non-home (non-landing) pages */}
-        {!isHome && <Header />}
         <main className="flex-1">{children}</main>
-        {!isHome && <Footer />}
       </body>
     </html>
   );

@@ -1,4 +1,5 @@
 // src/app/(landing)/page.tsx
+'use client'
 
 import LandingLayout from './layout'
 import Link from "next/link"
@@ -15,18 +16,22 @@ import {
 export default function LandingPage() {
   return (
     <LandingLayout>
-      <div className="relative flex flex-col h-screen">
-        {/* 1) Title - Deep charcoal for sophistication */}
-        <h1
-          className="absolute top-20 inset-x-0 text-center text-5xl font-bold text-[#2d3748] z-20"
-          style={{
-            fontFamily: "miller-display, serif",
-            fontWeight: 700,
-            fontStyle: "normal",
-          }}
-        >
-          Marcus Sak
-        </h1>
+      <div className="relative flex flex-col h-screen overflow-hidden">
+        {/* 1) Title with underline - Deep charcoal for sophistication */}
+        <div className="absolute top-20 inset-x-0 flex flex-col items-center z-20">
+          <h1
+            className="text-5xl font-bold text-[#2d3748] mb-4"
+            style={{
+              fontFamily: "miller-display, serif",
+              fontWeight: 700,
+              fontStyle: "normal",
+            }}
+          >
+            Marcus Sak
+          </h1>
+          {/* Subtle underline */}
+          <div className="w-70 h-0.5 bg-gradient-to-r from-transparent via-[#2d3748] to-transparent opacity-60"></div>
+        </div>
 
         {/* 2) Wrapper - Warm cream to mint gradient */}
         <div
@@ -63,7 +68,7 @@ export default function LandingPage() {
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-6 z-50">
               <a
                 href="mailto:msak@g.harvard.edu"
-                className="text-[#cbd5e1] group-hover:text-[#ea4335] transition-colors duration-200"
+                className="text-[#cbd5e1] hover:text-[#ea4335] transition-colors duration-200"
               >
                 <EnvelopeIcon className="h-7 w-7" />
               </a>
@@ -71,7 +76,7 @@ export default function LandingPage() {
                 href="https://github.com/msh-yi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#cbd5e1] group-hover:text-[#333] transition-colors duration-200"
+                className="text-[#cbd5e1] hover:text-[#333] transition-colors duration-200"
               >
                 <FaGithub className="h-7 w-7" />
               </a>
@@ -80,7 +85,7 @@ export default function LandingPage() {
                 href="https://scholar.google.com/citations?user=d1w_uMAAAAAJ&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#cbd5e1] group-hover:text-[#4285f4] transition-colors duration-200"
+                className="text-[#cbd5e1] hover:text-[#4285f4] transition-colors duration-200"
               >
                 <FaGoogleScholar className="h-7 w-7" />
               </a>
@@ -89,7 +94,7 @@ export default function LandingPage() {
                 href="https://orcid.org/0000-0001-5691-4459"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#cbd5e1] group-hover:text-[#a6ce39] transition-colors duration-200"
+                className="text-[#cbd5e1] hover:text-[#a6ce39] transition-colors duration-200"
               >
                 <FaOrcid className="h-7 w-7" />
               </a>
@@ -98,7 +103,7 @@ export default function LandingPage() {
                 href="https://www.linkedin.com/in/marcus-sak"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#cbd5e1] group-hover:text-[#0077b5] transition-colors duration-200"
+                className="text-[#cbd5e1] hover:text-[#0077b5] transition-colors duration-200"
               >
                 <FaLinkedin className="h-7 w-7" />
               </a>
@@ -107,7 +112,7 @@ export default function LandingPage() {
                 href="https://x.com/msh_yi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#cbd5e1] group-hover:text-[#333] transition-colors duration-200"
+                className="text-[#cbd5e1] hover:text-[#333] transition-colors duration-200"
               >
                 <FaXTwitter className="h-7 w-7" />
               </a>

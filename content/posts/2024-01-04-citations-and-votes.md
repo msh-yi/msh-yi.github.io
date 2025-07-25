@@ -2,7 +2,7 @@
 title: "Do we vote for papers that end up with more citations?"
 date: 2024-01-04
 section: chemistry
-category: analysis
+category: blog
 ---
 
 ## Methods
@@ -21,15 +21,15 @@ The workflow here is simple: for all papers on the main list, we pull the number
 
 Across each year, we take every paper that received more than two votes and determine its rank by number of times cited. The cutoff for this plot has been set to papers that rank between 1 and 100; there are plenty more papers that received votes but that rank outside this window. As you can see below, papers that receive more votes very roughly rank higher, but this trend is weak. One way to read this plot is to focus on a single color (year) and track the evolution of dots of that color from lower to higher votes.
 
-![](/posts/do-we-vote-for-papers-that-end-up-with-more-citations/rank_vs_votes.png)
+![](/posts/2024-01-04-citations-and-votes/rank_vs_votes.png)
 
-A year-by-year breakdown is available [here](/posts/do-we-vote-for-papers-that-end-up-with-more-citations/rank_vs_votes_year.png).
+A year-by-year breakdown is available [here](/posts/2024-01-04-citations-and-votes/rank_vs_votes_year.png).
 
 So, more-voted-for papers are not necessarily more cited among papers that year. How about the correlation between number of votes and _number of citations_? Once again, one way to read this plot is to focus on a single color (year) and track the evolution of dots of that color from lower to higher votes.
 
-![](/posts/do-we-vote-for-papers-that-end-up-with-more-citations/cites_vs_votes.png)
+![](/posts/2024-01-04-citations-and-votes/cites_vs_votes.png)
 
-A year-by-year breakdown is available [here](/posts/do-we-vote-for-papers-that-end-up-with-more-citations/cites_vs_votes_year.png).
+A year-by-year breakdown is available [here](/posts/2024-01-04-citations-and-votes/cites_vs_votes_year.png).
 
 ## A dive into the most-cited papers and the top vote-getter
 

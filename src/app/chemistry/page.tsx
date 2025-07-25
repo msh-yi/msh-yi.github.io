@@ -1,26 +1,27 @@
-// src/app/work/page.tsx
-import Link from 'next/link'
-import { getAllPosts, Post } from '@/lib/posts'
+// src/app/chemistry/page.tsx
+import { getAllPosts, Post } from "@/lib/posts"
+import ChemistryGrid from "@/components/ChemistryGrid"
+import BenzeneBackground from "@/components/BenzeneBackground"
 
-export default async function WorkPage(): Promise<React.JSX.Element> {
-  const posts: Post[] = (await getAllPosts()).filter(
-    (p) => p.meta.section === 'chemistry'
-  )
+export default async function ChemistryPage(): Promise<React.JSX.Element> {
+  let posts: Post[] = []
+
+  try {
+    const allPosts = await getAllPosts()
+    posts = allPosts.filter((p) => p.meta.section === "chemistry")
+  } catch (error) {
+    console.error("Error loading posts:", error)
+  }
 
   return (
-    <main className="p-8">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {posts.map(({ slug, meta }) => (
-          <Link key={slug} href={`/posts/${slug}`}>
-            <a className="block border rounded-lg overflow-hidden hover:shadow-lg transition">
-              <div className="p-4">
-                <h2 className="text-xl">{meta.title}</h2>
-                <time className="text-sm text-gray-500">{meta.date}</time>
-              </div>
-            </a>
-          </Link>
-        ))}
+    <div className="relative bg-[#FEFCF3]">
+      {/* Benzene background - fixed positioning */}
+      <BenzeneBackground />
+
+      {/* Main content with proper spacing */}
+      <div className="relative z-20 pt-10 pb-20">
+        <ChemistryGrid posts={posts} />
       </div>
-    </main>
+    </div>
   )
 }

@@ -1,8 +1,8 @@
 ---
-title:  "A Practical Guide to in operando Low-Temperature NMR Spectroscopy"
+title:  "A Practical Guide to Operando Low-Temperature NMR Spectroscopy"
 date: 2025-03-07
 section: chemistry
-category: misc
+category: blog
 ---
 
 This tutorial provides a set of instructions for NMR monitoring of a live reaction at low temperature I500 instrument (Varian Unity/Inova500) with Vnmrj Version 3.2 Revision A at the Laukien-Purcell Instrumentation Center, Harvard Chemistry and Chemical Biology. This guide presumes basic competencies with locking, shimming, and acquiring a 1D spectrum are assumed. The level of detail varies throughout the tutorial, which was mostly written for this user's own reference.
