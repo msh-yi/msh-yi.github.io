@@ -1,24 +1,20 @@
-// components/PostCard.tsx
+// src/components/PostCard.tsx
 import Link from 'next/link'
-import { PostMeta } from '@/lib/posts'
+import { Post, formatDate } from '@/lib/posts' // Make sure formatDate is imported
 
-export interface PostCardProps {
-  slug: string
-  meta: PostMeta
+interface PostCardProps {
+  post: Post
 }
 
-export function PostCard({ slug, meta }: PostCardProps): React.JSX.Element {
+export default function PostCard({ post }: PostCardProps) {
+  const { slug, meta } = post
+  
   return (
     <Link href={`/posts/${slug}`}>
-      <div className="block border rounded-lg overflow-hidden hover:shadow-lg transition">
-        <div className="p-4 space-y-2">
-+         {/* Category badge */}
-+         <span className="inline-block px-2 py-1 text-xs font-medium bg-gray-200 rounded">
-+           {meta.category}
-+         </span>
-
+      <div className="border rounded-lg p-4 hover:shadow-md transition-shadow">
+        <div>
           <h2 className="text-xl">{meta.title}</h2>
-          <time className="text-sm text-gray-500">{meta.date}</time>
+          <time className="text-sm text-gray-500">{formatDate(meta.date)}</time>
         </div>
       </div>
     </Link>
