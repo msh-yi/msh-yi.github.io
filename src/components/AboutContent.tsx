@@ -58,6 +58,7 @@ export default function AboutContent() {
                 height={400}
                 className="w-full h-auto rounded-xl object-cover"
                 priority
+                unoptimized
               />
             </div>
           </div>
