@@ -72,15 +72,15 @@ export default function AboutContent() {
             </p>
             
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                My primary research interests are in developing new catalytic reactions and understanding the mechanistic underpinnings of catalysis. As a training physical organic chemist, I am interested in learning and applying physical and computational tools to study the mechanism of reactions. Such tools include operando NMR and IR spectroscopy as well as DFT and wavefunction-based computations. I also rely heavily on programming, data science tools, and mathematics to automate and simplify many aspect of research, including experimental design and data analysis.
+                My primary research interests are in developing new catalytic reactions and understanding the mechanistic underpinnings of catalysis. As a training physical organic chemist, I am interested in learning and applying physical and computational tools to study the mechanism of reactions. Such tools include operando NMR and IR spectroscopy as well as DFT and wavefunction-based computations. I also rely heavily on programming, data science tools, and mathematics to automate and enhance experimental design and data analysis.
             </p>
             
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                In addition to chemistry, I'm also interested in writing about science for a general audience and in the sociology of scientific research (see my blog posts). I also <Link href="/fun" className="text-amber-600 hover:text-amber-700 font-semibold">bake</Link>, among other hobbies.
+                In addition to chemistry, I'm also interested in writing about science for a general audience and in the sociology of scientific research (see my blog posts). I also <Link href="/fun" className="text-amber-600 hover:text-amber-700 font-semibold">bake and cook</Link>, among other hobbies.
             </p>
 
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                From 2017 to 2021 I was an undergraduate at Yale University, where I studied peptide-catalyzed reactions in the <a href="https://millerlab.yale.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Miller Group</a>. Prior to that I attended <a href="https://www.nushigh.edu.sg/" className="text-amber-600 hover:text-amber-700 font-semibold">high school</a>in Singapore after growing up in Penang, Malaysia.
+                From 2017 to 2021 I was an undergraduate at Yale University, where I studied peptide-catalyzed reactions in the <a href="https://millerlab.yale.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Miller Group</a>. Prior to that I attended <a href="https://www.nushigh.edu.sg/" className="text-amber-600 hover:text-amber-700 font-semibold">high school</a> in Singapore after growing up in Penang, Malaysia.
             </p>
         
           </div>

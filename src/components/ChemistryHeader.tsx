@@ -87,7 +87,7 @@ export default function ChemistryHeader() {
           style={headerStyle}
         >
           <div className="flex-shrink-0">
-            <Link href="/" className="block group">
+            <Link href="/chemistry" className="block group">
               <h1
                 className="text-3xl font-medium text-[#00356b] hover:text-[#1a202c] 
                   transition-all duration-100 ease-out"
@@ -104,6 +104,23 @@ export default function ChemistryHeader() {
 
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <nav className="flex items-center space-x-12">
+              <Link href="/chemistry" className="group">
+                <h2
+                  className="text-xl text-[#00356b] hover:text-[#001a2e] 
+                    transition-all duration-500 ease-out
+                    hover:tracking-wide"
+                  style={{
+                    fontFamily: "neue-haas-grotesk-display, sans-serif",
+                    fontWeight: 600,
+                    fontStyle: "normal",
+                  }}
+                >
+                  posts
+                </h2>
+                  <div className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
+                    transition-all duration-500 ease-out group-hover:w-full mt-1"></div>
+                </Link>
+
               <Link href="/about" className="group">
                 <h2
                   className="text-xl text-[#00356b] hover:text-[#001a2e] 
@@ -121,6 +138,7 @@ export default function ChemistryHeader() {
                   transition-all duration-500 ease-out group-hover:w-full mt-1"></div>
               </Link>
 
+
               <Link href="/cv" className="group">
                 <h2
                   className="text-xl text-[#00356b] hover:text-[#001a2e] 
@@ -132,24 +150,7 @@ export default function ChemistryHeader() {
                     fontStyle: "normal",
                   }}
                 >
-                  cv
-                </h2>
-                <div className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
-                  transition-all duration-500 ease-out group-hover:w-full mt-1"></div>
-              </Link>
-
-              <Link href="/contact" className="group">
-                <h2
-                  className="text-xl text-[#00356b] hover:text-[#001a2e] 
-                    transition-all duration-500 ease-out
-                    hover:tracking-wide"
-                  style={{
-                    fontFamily: "neue-haas-grotesk-display, sans-serif",
-                    fontWeight: 600,
-                    fontStyle: "normal",
-                  }}
-                >
-                  contact
+                  CV
                 </h2>
                 <div className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
                   transition-all duration-500 ease-out group-hover:w-full mt-1"></div>

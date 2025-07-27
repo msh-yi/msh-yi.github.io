@@ -20,6 +20,13 @@ export default async function ChemistryPage(): Promise<React.JSX.Element> {
 
       {/* Main content with proper spacing */}
       <div className="relative z-20 pt-10 pb-20">
+        {/* Introductory text */}
+        <div className="max-w-4xl mx-auto px-6 mb-12 text-center">
+          <p className="text-xl text-slate-700 font-medium leading-relaxed">
+            A feed of my publications, literature analyses, and blog posts
+          </p>
+        </div>
+        
         <ChemistryGrid posts={posts} />
       </div>
     </div>

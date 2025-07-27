@@ -120,9 +120,9 @@ function AnimatedHexCell({ cell, onComplete }: { cell: HexCell; onComplete: (id:
               x2={x2}
               y2={y2}
               stroke="#D4AF37"
-              strokeWidth="2"
+              strokeWidth="1"
               initial={{ pathLength: 0, opacity: 0 }}
-              animate={{ pathLength: 1, opacity: 0.02 }}
+              animate={{ pathLength: 1, opacity: 0.01 }}
               exit={{ opacity: 0 }}
               transition={{ 
                 duration: 0.5,

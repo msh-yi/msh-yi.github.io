@@ -33,7 +33,7 @@ export default function CategoryFilter({
     >
       {/* Header */}
       <div className="mb-8">
-        <h3 className="text-gray-900 text-lg" style={{ fontWeight: 500 }}>
+        <h3 className="text-gray-900 text-lg font-medium" style={{ fontWeight: 500 }}>
           filter posts
         </h3>
       </div>
@@ -50,7 +50,7 @@ export default function CategoryFilter({
               key={key}
               onClick={() => onCategoryChange(key)}
               className={`
-                relative px-0 py-3 text-base tracking-normal
+                relative px-0 py-3 text-base tracking-wide
                 transition-all duration-200 text-left
                 group
                 ${isSelected 
@@ -58,7 +58,7 @@ export default function CategoryFilter({
                   : 'text-gray-400 hover:text-gray-600'
                 }
               `}
-              style={{ fontWeight: 600 }}
+              style={{ fontWeight: 500 }}
             >
               {/* Left border line for selected state */}
               {isSelected && (
