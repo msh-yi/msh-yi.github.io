@@ -76,11 +76,11 @@ export default function AboutContent() {
             </p>
             
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                In addition to chemistry, I'm also interested in scientific writing and the sociology of scientific research (see blog posts). I also <Link href="/fun" className="text-amber-600 hover:text-amber-700 font-semibold">bake</Link>, dabble in graphic design, and stay active by biking, ice skating, and playing tennis. I am passionate about Boston's bikeshare network, on which I recently exceeded 2,000 miles.
+                In addition to chemistry, I'm also interested in writing about science for a general audience and in the sociology of scientific research (see my blog posts). I also <Link href="/fun" className="text-amber-600 hover:text-amber-700 font-semibold">bake</Link>, among other hobbies.
             </p>
 
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                From 2017 to 2021 I was an undergraduate at Yale University, where I studied peptide-catalyzed reactions in the <a href="https://millerlab.yale.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Miller Group</a>. Prior to that I attended high school in Singapore and was born and raised in Penang, Malaysia.
+                From 2017 to 2021 I was an undergraduate at Yale University, where I studied peptide-catalyzed reactions in the <a href="https://millerlab.yale.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Miller Group</a>. Prior to that I attended <a href="https://www.nushigh.edu.sg/" className="text-amber-600 hover:text-amber-700 font-semibold">high school</a>in Singapore after growing up in Penang, Malaysia.
             </p>
         
           </div>
