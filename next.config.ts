@@ -7,8 +7,10 @@ const nextConfig: NextConfig = {
     unoptimized: true
   },
   eslint: {
-    ignoreDuringBuilds: true, // Keep this if you want to ignore lint warnings during build
-  }
+    ignoreDuringBuilds: true,
+  },
+  // Add this to ensure static export works properly
+  distDir: '.next',
 }
 
 export default nextConfig
