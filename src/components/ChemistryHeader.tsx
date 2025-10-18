@@ -1,27 +1,27 @@
 // src/components/ChemistryHeader.tsx
 "use client";
 
-import { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { ChevronUpIcon } from '@heroicons/react/24/outline'
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { ChevronUpIcon } from "@heroicons/react/24/outline";
 
 export default function ChemistryHeader() {
-  const [showScrollTop, setShowScrollTop] = useState(false)
-  const [headerStyle, setHeaderStyle] = useState<React.CSSProperties>({})
+  const [showScrollTop, setShowScrollTop] = useState(false);
+  const [headerStyle, setHeaderStyle] = useState<React.CSSProperties>({});
 
   useEffect(() => {
     const handleScroll = () => {
-      setShowScrollTop(window.scrollY > 300)
-    }
+      setShowScrollTop(window.scrollY > 300);
+    };
 
-    window.addEventListener('scroll', handleScroll, { passive: true })
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     const updateHeaderLayout = () => {
-      const screenWidth = window.innerWidth
-      
+      const screenWidth = window.innerWidth;
+
       if (screenWidth < 1024) {
         // Mobile/tablet - use standard centering
         setHeaderStyle({
@@ -29,29 +29,29 @@ export default function ChemistryHeader() {
           marginLeft: "0",
           marginRight: "0",
           paddingLeft: "1rem",
-          paddingRight: "1rem"
-        })
-        return
+          paddingRight: "1rem",
+        });
+        return;
       }
-      
-      const containerMaxWidth = 1280
-      const containerPadding = 16
-      const sidebarWidth = 192
-      const gap = 64
-      const totalContentWidth = containerMaxWidth + gap + sidebarWidth
-      const availableWidth = screenWidth - (containerPadding * 2)
-      
+
+      const containerMaxWidth = 1280;
+      const containerPadding = 16;
+      const sidebarWidth = 192;
+      const gap = 64;
+      const totalContentWidth = containerMaxWidth + gap + sidebarWidth;
+      const availableWidth = screenWidth - containerPadding * 2;
+
       if (availableWidth >= totalContentWidth) {
         // Large screen - align with centered grid
-        const leftOffset = (screenWidth - totalContentWidth) / 2
-        
+        const leftOffset = (screenWidth - totalContentWidth) / 2;
+
         setHeaderStyle({
           width: `${containerMaxWidth}px`,
           marginLeft: `${leftOffset}px`,
           marginRight: "auto",
           paddingLeft: "0",
-          paddingRight: "0"
-        })
+          paddingRight: "0",
+        });
       } else {
         // Medium screen - align with constrained grid
         setHeaderStyle({
@@ -59,33 +59,34 @@ export default function ChemistryHeader() {
           marginLeft: `${containerPadding}px`,
           marginRight: "auto",
           paddingLeft: "0",
-          paddingRight: "0"
-        })
+          paddingRight: "0",
+        });
       }
-    }
+    };
 
-    updateHeaderLayout()
-    window.addEventListener('resize', updateHeaderLayout)
-    return () => window.removeEventListener('resize', updateHeaderLayout)
-  }, [])
+    updateHeaderLayout();
+    window.addEventListener("resize", updateHeaderLayout);
+    return () => window.removeEventListener("resize", updateHeaderLayout);
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
-    })
-  }
+      behavior: "smooth",
+    });
+  };
 
   return (
     <>
       {/* Static Header - no animation */}
-      <header 
-        className="w-full p-6 bg-[#FEFCF3] relative overflow-hidden sticky top-0 z-50"
+      <header
+        className={`w-full sticky top-0 z-50
+              bg-[#FEFCF3]/95 backdrop-blur
+              px-4 lg:px-6 py-3
+              transition-shadow
+              ${showScrollTop ? "shadow-md" : "shadow-sm"}`}
       >
-        <div 
-          className="relative flex items-center"
-          style={headerStyle}
-        >
+        <div className="relative flex items-center" style={headerStyle}>
           <div className="flex-shrink-0">
             <Link href="/chemistry" className="block group">
               <h1
@@ -103,7 +104,7 @@ export default function ChemistryHeader() {
           </div>
 
           <div className="absolute left-1/2 transform -translate-x-1/2">
-            <nav className="flex items-center space-x-12">
+            <nav className="flex items-center space-x-8">
               <Link href="/chemistry" className="group">
                 <h2
                   className="text-xl text-[#00356b] hover:text-[#001a2e] 
@@ -117,9 +118,11 @@ export default function ChemistryHeader() {
                 >
                   posts
                 </h2>
-                  <div className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
-                    transition-all duration-500 ease-out group-hover:w-full mt-1"></div>
-                </Link>
+                <div
+                  className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
+                    transition-all duration-500 ease-out group-hover:w-full mt-1"
+                ></div>
+              </Link>
 
               <Link href="/about" className="group">
                 <h2
@@ -134,10 +137,11 @@ export default function ChemistryHeader() {
                 >
                   about
                 </h2>
-                <div className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
-                  transition-all duration-500 ease-out group-hover:w-full mt-1"></div>
+                <div
+                  className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
+                  transition-all duration-500 ease-out group-hover:w-full mt-1"
+                ></div>
               </Link>
-
 
               <Link href="/cv" className="group">
                 <h2
@@ -152,8 +156,10 @@ export default function ChemistryHeader() {
                 >
                   CV
                 </h2>
-                <div className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
-                  transition-all duration-500 ease-out group-hover:w-full mt-1"></div>
+                <div
+                  className="h-0.5 w-0 bg-gradient-to-r from-[#00356b] to-[#001a2e] 
+                  transition-all duration-500 ease-out group-hover:w-full mt-1"
+                ></div>
               </Link>
             </nav>
           </div>
@@ -172,8 +178,10 @@ export default function ChemistryHeader() {
               >
                 fun
               </h2>
-              <div className="absolute -top-1 -right-1 w-1.5 h-1.5 opacity-0 
-                group-hover:opacity-100 transition-all duration-200 delay-100">
+              <div
+                className="absolute -top-1 -right-1 w-1.5 h-1.5 opacity-0 
+                group-hover:opacity-100 transition-all duration-200 delay-100"
+              >
                 <div className="w-full h-full bg-[#14a085] transform rotate-45"></div>
               </div>
             </Link>
@@ -194,5 +202,5 @@ export default function ChemistryHeader() {
         </button>
       )}
     </>
-  )
+  );
 }
