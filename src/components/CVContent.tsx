@@ -36,7 +36,6 @@ export default function CVContent() {
         <h1 className="text-5xl font-light text-slate-900 mb-4">Marcus H. Sak</h1>
         <div className="flex justify-center gap-8 text-slate-600">
           <span>msak@g.harvard.edu</span>
-          <span>+1 (203) 390-0520</span>
         </div>
       </motion.header>
 
@@ -53,7 +52,7 @@ export default function CVContent() {
                 <span className="text-amber-600 font-medium">2021–present</span>
               </div>
               <p className="text-slate-700 mb-1">Ph.D. Candidate, Chemistry and Chemical Biology</p>
-              <p className="text-slate-600 text-sm">Expected June 2026 • Catalytic Principles for Selective Small-Molecule Catalysis</p>
+              <p className="text-slate-600 text-sm">Expected May 2026 • Catalytic Principles for Selective Small-Molecule Catalysis</p>
             </div>
             
             <div>
@@ -131,6 +130,10 @@ export default function CVContent() {
           </div>
           <div className="lg:col-span-4">
             <ol className="space-y-6">
+              <li className="text-slate-800 leading-relaxed">
+                <span className="font-medium">Sak, M. H.; Liu, R. Y., Kwan, E. E.; Jacobsen, E. N.</span> Accelerating the discovery of multicatalytic cooperativity.{' '}
+                <span className="text-slate-600 italic">Nature</span> <span className="font-medium">2025</span>, <span className="italic">633</span>, in press.
+              </li>
               <li className="text-slate-800 leading-relaxed">
                 <span className="font-medium">Sak, M. H.; Jacobsen, E. N.</span> Selective Noncovalent Catalysis with Small Molecules.{' '}
                 <span className="text-slate-600 italic">Chem. Rev.</span> <span className="font-medium">2025</span>
