@@ -20,7 +20,7 @@ export default function CVPage() {
         <div className="max-w-4xl mx-auto px-6 pt-8">
           <div className="flex justify-end mb-8">
             <a
-              href="/cv/Sak_CV_Jul_25.pdf"
+              href="/cv/Sak_CV_Feb_26.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 bg-[#00356b] hover:bg-[#001a2e] text-white rounded-lg transition-colors duration-200 font-medium"

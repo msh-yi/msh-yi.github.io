@@ -165,11 +165,16 @@ export default function ChemistryHeader() {
           </div>
 
           <div className="flex-shrink-0 ml-auto">
-            <Link href="/fun" className="group relative">
+            <a 
+              href="https://bicarb.substack.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group relative inline-block"
+            >
               <h2
-                className="text-xl text-[#0d7377] hover:text-[#14a085] 
+                className="text-xl text-[#0d7377] group-hover:text-[#14a085] 
                   transition-all duration-500 ease-out
-                  hover:tracking-wide hover:scale-110 hover:rotate-3"
+                  group-hover:tracking-wide group-hover:scale-110 group-hover:rotate-3"
                 style={{
                   fontFamily: "neue-haas-grotesk-display, sans-serif",
                   fontWeight: 600,
@@ -178,13 +183,14 @@ export default function ChemistryHeader() {
               >
                 fun
               </h2>
+              {/* Decorative Diamond */}
               <div
-                className="absolute -top-1 -right-1 w-1.5 h-1.5 opacity-0 
+                className="absolute -top-1 -right-2 w-1.5 h-1.5 opacity-0 
                 group-hover:opacity-100 transition-all duration-200 delay-100"
               >
-                <div className="w-full h-full bg-[#14a085] transform rotate-45"></div>
+                <div className="w-full h-full bg-[#14a085] transform rotate-45 shadow-sm"></div>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </header>

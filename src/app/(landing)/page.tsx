@@ -120,27 +120,29 @@ export default function LandingPage() {
           </div>
 
           {/* 5) Right panel (fun) */}
-          <Link
-            href="/fun"
-            className="flex-1 flex flex-col justify-center items-center bg-transparent group"
-          >
-            <ArrowRightIcon className="h-6 w-6 text-[#cbd5e1] group-hover:text-[#14a085] absolute right-15 
-              transition-all duration-200 ease-out 
-              group-hover:scale-125 group-hover:translate-x-1" />
-            <h2
-              className="text-3xl text-[#0d7377] group-hover:text-[#14a085] mb-2 
-                transition-all duration-300 ease-out delay-75
-                group-hover:scale-110 group-hover:font-extrabold"
-              style={{
-                fontFamily: "neue-haas-grotesk-display, sans-serif",
-                fontWeight: 700,
-                fontStyle: "normal",
-              }}
+          <a
+              href="https://bicarb.substack.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 flex flex-col justify-center items-center bg-transparent group relative"
             >
-              fun
-            </h2>
-          </Link>
-        </div>
+              <ArrowRightIcon className="h-6 w-6 text-[#cbd5e1] group-hover:text-[#14a085] absolute right-15 
+                transition-all duration-200 ease-out 
+                group-hover:scale-125 group-hover:translate-x-1" />
+              <h2
+                className="text-3xl text-[#0d7377] group-hover:text-[#14a085] mb-2 
+                  transition-all duration-300 ease-out delay-75
+                  group-hover:scale-110 group-hover:font-extrabold"
+                style={{
+                  fontFamily: "neue-haas-grotesk-display, sans-serif",
+                  fontWeight: 700,
+                  fontStyle: "normal",
+                }}
+              >
+                fun
+              </h2>
+            </a>
+          </div>
       </div>
     </LandingLayout>
   )
