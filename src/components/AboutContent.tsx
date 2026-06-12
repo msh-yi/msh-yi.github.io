@@ -68,15 +68,15 @@ export default function AboutContent() {
         <motion.div variants={itemVariants} className="lg:col-span-2 space-y-6">
           <div className="prose prose-lg max-w-none">
             <p className="text-xl text-slate-700 leading-relaxed mb-6">
-              I'm a graduate student in chemistry at <a href="https://chemistry.harvard.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Harvard University</a> working in the <a href="https://jacobsengroup.sites.fas.harvard.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Jacobsen Group</a>.
+              I received my PhD from <a href="https://chemistry.harvard.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Harvard University</a>, where I worked in the <a href="https://jacobsengroup.sites.fas.harvard.edu/" className="text-amber-600 hover:text-amber-700 font-semibold">Jacobsen Group</a>.
             </p>
             
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                My primary research interests are in developing new catalytic reactions and understanding the mechanistic underpinnings of catalysis. As a training physical organic chemist, I am interested in learning and applying physical and computational tools to study the mechanism of reactions. Such tools include operando NMR and IR spectroscopy as well as DFT and wavefunction-based computations. I also rely heavily on programming, data science tools, and mathematics to automate and enhance experimental design and data analysis.
+                My primary research interests in graduate school were the development of new catalytic reactions and understanding reaction mechanisms. I applied physical and computational tools, including operando NMR and IR spectroscopy as well as quantum-chemical computational modeling. I routinely use programming, data science tools, and mathematics to automate and enhance experimental design and data analysis.
             </p>
             
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                In addition to chemistry, I'm also interested in writing about science for a general audience and in the sociology of scientific research (see my blog posts). I also <Link href="/fun" className="text-amber-600 hover:text-amber-700 font-semibold">bake and cook</Link>, among other hobbies.
+                In addition to research, I enjoy writing about science for a general audience and in the sociology of scientific research (see my blog posts). Also important for my happiness are <a href="https://bicarb.substack.com/" className="text-amber-600 hover:text-amber-700 font-semibold">eating and making food</a>.
             </p>
 
             <p className="text-lg text-slate-700 leading-relaxed mb-6">

@@ -49,10 +49,10 @@ export default function CVContent() {
             <div>
               <div className="flex justify-between items-baseline mb-1">
                 <h3 className="text-xl font-medium text-slate-900">Harvard University</h3>
-                <span className="text-amber-600 font-medium">2021–present</span>
+                <span className="text-amber-600 font-medium">Aug 2021–May 2026</span>
               </div>
-              <p className="text-slate-700 mb-1">Ph.D. Candidate, Chemistry and Chemical Biology</p>
-              <p className="text-slate-600 text-sm">Expected May 2026 • Catalytic Principles for Selective Small-Molecule Catalysis</p>
+              <p className="text-slate-700 mb-1">Ph.D., Department of Chemistry and Chemical Biology</p>
+              <p className="text-slate-600 text-sm">Advisor: Eric N. Jacobsen • Thesis: Enzymatic Principles in Selective Small-Molecule Catalysis</p>
             </div>
             
             <div>
@@ -77,7 +77,7 @@ export default function CVContent() {
             <div>
               <div className="flex justify-between items-baseline mb-1">
                 <h3 className="text-xl font-medium text-slate-900">Merck & Co., Inc.</h3>
-                <span className="text-amber-600 font-medium">2025–present</span>
+                <span className="text-amber-600 font-medium">Feb–June 2025</span>
               </div>
               <p className="text-slate-700 mb-1">Visiting Scientist, Process R&D Enabling Technologies</p>
               <p className="text-slate-600 text-sm">High-throughput and automated experimentation for combinatorial screening</p>
@@ -85,38 +85,29 @@ export default function CVContent() {
 
             <div>
               <div className="flex justify-between items-baseline mb-1">
-                <h3 className="text-xl font-medium text-slate-900">Harvard University</h3>
-                <span className="text-amber-600 font-medium">2021–present</span>
-              </div>
-              <p className="text-slate-700 mb-1">Ph.D. Candidate, Chemistry and Chemical Biology</p>
-              <p className="text-slate-600 text-sm">Advisor: Prof. Eric N. Jacobsen • Asymmetric catalysis of ionic pathways; screening for cooperative catalysis</p>
-            </div>
-
-            <div>
-              <div className="flex justify-between items-baseline mb-1">
                 <h3 className="text-xl font-medium text-slate-900">Yale University</h3>
-                <span className="text-amber-600 font-medium">2018–2021</span>
+                <span className="text-amber-600 font-medium">Jan 2018–May 2021</span>
               </div>
-              <p className="text-slate-700 mb-1">Undergraduate Research Assistant</p>
-              <p className="text-slate-600 text-sm">Advisor: Scott J. Miller • Peptide-catalyzed enantioselective reactions and mechanistic studies</p>
+              <p className="text-slate-700 mb-1">Advisor: Scott J. Miller</p>
+              <p className="text-slate-600 text-sm">Peptide-catalyzed enantioselective reactions and associated mechanistic/computational studies</p>
             </div>
 
             <div>
               <div className="flex justify-between items-baseline mb-1">
                 <h3 className="text-xl font-medium text-slate-900">Justus-Liebig-Universität Giessen</h3>
-                <span className="text-amber-600 font-medium">2019</span>
+                <span className="text-amber-600 font-medium">May–Jul 2019</span>
               </div>
-              <p className="text-slate-700 mb-1">DAAD RISE Intern</p>
-              <p className="text-slate-600 text-sm">Advisor: Peter R. Schreiner • Synthesis and computational studies of minimal mercaptocarbenes</p>
+              <p className="text-slate-700 mb-1">Advisor: Peter R. Schreiner</p>
+              <p className="text-slate-600 text-sm">Synthesis, computational studies, and matrix isolation of minimal mercaptocarbenes</p>
             </div>
 
             <div>
               <div className="flex justify-between items-baseline mb-1">
                 <h3 className="text-xl font-medium text-slate-900">National University of Singapore</h3>
-                <span className="text-amber-600 font-medium">2015–2016</span>
+                <span className="text-amber-600 font-medium">Jun 2015–Jul 2016</span>
               </div>
-              <p className="text-slate-700 mb-1">Research Intern</p>
-              <p className="text-slate-600 text-sm">Advisor: Yixin Lu • Asymmetric phosphine catalysis</p>
+              <p className="text-slate-700 mb-1">Advisor: Yixin Lu</p>
+              <p className="text-slate-600 text-sm">Asymmetric phosphine catalysis of [3 + 2] and [3 + 3] cycloadditions</p>
             </div>
           </div>
         </div>
@@ -131,29 +122,29 @@ export default function CVContent() {
           <div className="lg:col-span-4">
             <ol className="space-y-6">
               <li className="text-slate-800 leading-relaxed">
-                <span className="font-medium">Sak, M. H.; Liu, R. Y., Kwan, E. E.; Jacobsen, E. N.</span> Accelerating the discovery of multicatalytic cooperativity.{' '}
-                <span className="text-slate-600 italic">Nature</span> <span className="font-medium">2025</span>, <span className="italic">633</span>, in press.
+                <span className="font-medium">Sak, M. H.†; Jiang, Y.†; Jacobsen, E. N.; Liu, R. Y.</span> Dual-Ligand System for Mild Decarbonylative Suzuki–Miyaura Cross-Coupling of Aroyl Chlorides.{' '}
+                <span className="text-slate-600 italic">ACS Catal.</span> <span className="font-medium">2026</span>, DOI: 10.1021/acscatal.5c08167.
+              </li>
+              <li className="text-slate-800 leading-relaxed">
+                <span className="font-medium">Sak, M. H.; Liu, R. Y.; Kwan, E. E.; Jacobsen, E. N.</span> Accelerating the Discovery of Cooperative Catalysis.{' '}
+                <span className="text-slate-600 italic">Nature</span> <span className="font-medium">2025</span>, <span className="italic">648</span>, 333.
               </li>
               <li className="text-slate-800 leading-relaxed">
                 <span className="font-medium">Sak, M. H.; Jacobsen, E. N.</span> Selective Noncovalent Catalysis with Small Molecules.{' '}
-                <span className="text-slate-600 italic">Chem. Rev.</span> <span className="font-medium">2025</span>
+                <span className="text-slate-600 italic">Chem. Rev.</span> <span className="font-medium">2025</span>, <span className="italic">125</span>, 8319.
               </li>
-              
               <li className="text-slate-800 leading-relaxed">
-                <span className="font-medium">Sak, M. H.*; Lovinger, G. J.*; Jacobsen, E. N.</span> Catalysis of An S<sub>N</sub>2 Pathway by Geometric Preorganization.{' '}
+                <span className="font-medium">Sak, M. H.†; Lovinger, G. J.†; Jacobsen, E. N.</span> Catalysis of An S<sub>N</sub>2 Pathway by Geometric Preorganization.{' '}
                 <span className="text-slate-600 italic">Nature</span> <span className="font-medium">2024</span>, <span className="italic">632</span>, 1052.
               </li>
-              
               <li className="text-slate-800 leading-relaxed">
                 <span className="font-medium">Turek, A. K.; Sak, M. H.; Miller, S. J.</span> Kinetic Analysis of a Cysteine-Derived Thiyl-Catalyzed Asymmetric Vinylcyclopropane Cycloaddition Reflects Numerous Attractive Noncovalent Interactions.{' '}
                 <span className="text-slate-600 italic">J. Am. Chem. Soc.</span> <span className="font-medium">2021</span>, <span className="italic">143</span>, 16173.
               </li>
-              
               <li className="text-slate-800 leading-relaxed">
                 <span className="font-medium">Chan, Y.-C.; Sak, M. H.; Frank, S. A.; Miller, S. J.</span> Tunable and Cooperative Catalysis for Enantioselective Pictet-Spengler Reaction with Varied Nitrogen-Containing Heterocyclic Carboxaldehydes.{' '}
                 <span className="text-slate-600 italic">Angew. Chem. Int. Ed.</span> <span className="font-medium">2021</span>, <span className="italic">60</span>, 24573.
               </li>
-              
               <li className="text-slate-800 leading-relaxed">
                 <span className="font-medium">Coombs, G.; Sak, M. H.; Miller, S. J.</span> Peptide‐Catalyzed Fragment Couplings that Form Axially Chiral Non‐C<sub>2</sub>‐Symmetric Biaryls.{' '}
                 <span className="text-slate-600 italic">Angew. Chem. Int. Ed.</span> <span className="font-medium">2020</span>, <span className="italic">59</span>, 2875.
@@ -171,38 +162,47 @@ export default function CVContent() {
           </div>
           <div className="lg:col-span-4 space-y-4">
             <div className="text-slate-800 leading-relaxed">
+              <span className="font-medium">Talk:</span> Enzymatic Principles in Selective Small-Molecule Catalysis.{' '}
+              <span className="text-slate-600 italic">University of Copenhagen Special Seminar</span>, June 2026 (upcoming), Denmark
+            </div>
+
+            <div className="text-slate-800 leading-relaxed">
+              <span className="font-medium">Talk:</span> Accelerating the Discovery of Cooperative Catalysis.{' '}
+              <span className="text-slate-600 italic">Merck & Co. Invited Lecture</span>, December 2025, Rahway, NJ
+            </div>
+
+            <div className="text-slate-800 leading-relaxed">
               <span className="font-medium">Talk:</span> Catalytic Principles in Phosphonium Dealkylation towards P-Stereogenic Compounds.{' '}
-              <span className="text-slate-600 italic">ACS DOC Graduate Research Symposium</span>, 2025, San Diego, CA
+              <span className="text-slate-600 italic">ACS DOC Graduate Research Symposium</span>, July 2025, San Diego, CA
             </div>
             
             <div className="text-slate-800 leading-relaxed">
               <span className="font-medium">Talk:</span> Catalytic Principles in Phosphonium Dealkylation towards P-Stereogenic Compounds.{' '}
-              <span className="text-slate-600 italic">Johnson & Johnson</span>, 2025, San Diego, CA
+              <span className="text-slate-600 italic">Johnson & Johnson Graduate Research Symposium</span>, June 2025, San Diego, CA
             </div>
             
             <div className="text-slate-800 leading-relaxed">
               <span className="font-medium">Talk:</span> Accelerating the Discovery of Cooperative Catalysis.{' '}
-              <span className="text-slate-600 italic">Rowan Scientific</span>, 2025, Boston, MA
+              <span className="text-slate-600 italic">Rowan Scientific Lecture Series</span>, January 2025, Boston, MA
             </div>
             
             <div className="text-slate-800 leading-relaxed">
               <span className="font-medium">Poster:</span> Catalysis of An S<sub>N</sub>2 Pathway by Geometric Preorganization.{' '}
-              <span className="text-slate-600 italic">Stereochemistry Gordon Research Conference</span>, 2024, Newport, RI
-            </div>
-            
-            <div className="text-slate-800 leading-relaxed">
-              <span className="font-medium">Poster:</span> Catalytic Enantioselective Arbuzov Reaction by Ion Pair Reorganization Towards Stereogenic-at-P(V) Compounds.{' '}
-              <span className="text-slate-600 italic">Boston Symposium on Organic and Bioorganic Chemistry</span>, 2024, Boston, MA
+              <span className="text-slate-600 italic">Stereochemistry Gordon Research Conference</span>, July 2024, Newport, RI
             </div>
             
             <div className="text-slate-800 leading-relaxed">
               <span className="font-medium">Talk:</span> Catalytic Enantioselective Arbuzov Reaction by Ion Pair Reorganization.{' '}
-              <span className="text-slate-600 italic">Harvard Chemistry & Chemical Biology Symposium</span>, 2023, Cambridge, MA
+              <span className="text-slate-600 italic">Harvard Chemistry & Chemical Biology Symposium</span>, May 2023, Cambridge, MA
+            </div>
+
+            <div className="text-slate-800 leading-relaxed">
+              <span className="font-medium">Talk:</span> Efficient data retrieval for large-scale smart city applications through applied Bayesian inference.{' '}
+              <span className="text-slate-600 italic">IEEE International Conference on Intelligent Sensors, Sensor Networks, and Information Processing</span>, 2015, Singapore (Best Paper Nomination)
             </div>
           </div>
         </div>
       </motion.section>
-
 
       {/* Teaching Experience */}
       <motion.section variants={itemVariants} className="mb-20">
@@ -229,7 +229,11 @@ export default function CVContent() {
                 <span className="text-amber-600 font-medium">2018–2021</span>
               </div>
               <p className="text-slate-700 mb-2">Quantitative Reasoning/Science Peer Tutor</p>
-              <p className="text-slate-600 text-sm">General Chemistry I/II, Organic Chemistry I, Physical Chemistry I/II</p>
+              <div className="text-slate-600 text-sm space-y-1">
+                <p>• General Chemistry I/II</p>
+                <p>• Organic Chemistry I</p>
+                <p>• Physical Chemistry I/II</p>
+              </div>
             </div>
           </div>
         </div>
@@ -245,7 +249,7 @@ export default function CVContent() {
             <div>
               <div className="flex justify-between items-baseline mb-1">
                 <h3 className="text-lg font-medium text-slate-900">Industry-Sponsored Research Fellowship</h3>
-                <span className="text-amber-600 font-medium">2024–2027</span>
+                <span className="text-amber-600 font-medium">2024–2026</span>
               </div>
               <p className="text-slate-600 text-sm">Merck & Co., Inc.</p>
             </div>
@@ -256,6 +260,14 @@ export default function CVContent() {
                 <span className="text-amber-600 font-medium">2019</span>
               </div>
               <p className="text-slate-600 text-sm">German Academic Exchange Service</p>
+            </div>
+
+            <div>
+              <div className="flex justify-between items-baseline mb-1">
+                <h3 className="text-lg font-medium text-slate-900">Alan S. Tetelman 1958 Fellowship for International Research in the Sciences</h3>
+                <span className="text-amber-600 font-medium">2019</span>
+              </div>
+              <p className="text-slate-600 text-sm">Yale University</p>
             </div>
           </div>
         </div>
@@ -304,9 +316,11 @@ export default function CVContent() {
           <div className="lg:col-span-4">
             <h3 className="text-lg font-medium text-slate-900 mb-4">Harvard University</h3>
             <div className="space-y-2 text-slate-700">
-              <p>• John Rezk (Third-year graduate student, 2022–2025)</p>
+              <p>• L Thompson (Graduate student, 2025–present)</p>
+              <p>• Yichen Jiang (Visiting undergraduate, Peking University, Jun–Oct 2025)</p>
+              <p>• Maximilian Frank (Visiting Masters student, LMU Munich, May–Aug 2025)</p>
+              <p>• John Rezk (Graduate student, 2022–2025)</p>
               <p>• Frank Lee (Harvard College undergraduate, 2022–2025)</p>
-              <p>• Maximilian Frank (Visiting Masters student, LMU Munich, 2025–present)</p>
             </div>
           </div>
         </div>
@@ -321,28 +335,32 @@ export default function CVContent() {
           <div className="lg:col-span-4 space-y-8">
             <div>
               <div className="flex justify-between items-baseline mb-1">
-                <h3 className="text-lg font-medium text-slate-900">Chair, Gordon Research Seminar</h3>
+                <h3 className="text-lg font-medium text-slate-900">Stereochemistry Gordon Research Seminar</h3>
                 <span className="text-amber-600 font-medium">2024</span>
               </div>
-              <p className="text-slate-600 text-sm">Managed finances, applications, and speaker program for Stereochemistry GRS</p>
+              <p className="text-slate-700 mb-1">Chair</p>
+              <p className="text-slate-600 text-sm">Managed finances, applications, and speaker program</p>
             </div>
             
             <div>
               <div className="flex justify-between items-baseline mb-1">
-                <h3 className="text-lg font-medium text-slate-900">STEM Professional, Letters to a Pre-Scientist</h3>
+                <h3 className="text-lg font-medium text-slate-900">Letters to a Pre-Scientist</h3>
                 <span className="text-amber-600 font-medium">2021–2022</span>
               </div>
+              <p className="text-slate-700 mb-1">STEM Professional</p>
               <p className="text-slate-600 text-sm">Exchanged letters with rural middle-schoolers about experiences in STEM</p>
             </div>
             
             <div>
               <div className="flex justify-between items-baseline mb-1">
-                <h3 className="text-lg font-medium text-slate-900">Editor in Chief, Yale Scientific Magazine</h3>
+                <h3 className="text-lg font-medium text-slate-900">Yale Scientific Magazine</h3>
                 <span className="text-amber-600 font-medium">2020</span>
               </div>
+              <p className="text-slate-700 mb-1">Editor in Chief</p>
               <div className="text-slate-600 text-sm space-y-1">
                 <p>• Headed editorial and business operations for a national popular science publication</p>
                 <p>• Performed science demonstrations for local middle- and high-schoolers</p>
+                <p>• Previously Science Writer and Features Editor</p>
               </div>
             </div>
           </div>

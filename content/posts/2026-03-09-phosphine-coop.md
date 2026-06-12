@@ -1,5 +1,5 @@
 ---
-title: "Accelerating the discovery of multicatalytic cooperativity"
+title: "Dual-Ligand System for Mild Decarbonylative Suzuki−Miyaura Cross-Coupling of Aroyl Chlorides"
 date: "2026-03-09"
 section: "chemistry"
 category: "publications"
